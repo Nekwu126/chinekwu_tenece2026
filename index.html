@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git Technical Documentation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    
+
+    <header>
+        <h1>Git Technical Documentation</h1>
+        <p>A beginner's guide to Git version control.</p>
+    </header>
+
+    
+
+    <nav>
+        <h2>Documentation Menu</h2>
+
+        <ul>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#installation">Installation</a></li>
+            <li><a href="#commands">Common Commands</a></li>
+            <li><a href="#workflow">Git Workflow</a></li>
+            <li><a href="#tips">Helpful Tips</a></li>
+            <li><a href="#feedback">Feedback Form</a></li>
+        </ul>
+    </nav>
+
+    
+
+    <main>
+
+       
+
+        <section id="introduction">
+
+            <article>
+
+                <h2>Introduction</h2>
+
+                <p>
+                    Git is a distributed version control system used to track changes
+                    in source code during software development.
+                </p>
+
+                <img src="images/git-logo.png"
+                    alt="Official Git logo"
+                    width="200"
+                    >
+
+            </article>
+
+        </section>
+
+        
+
+        <section id="installation">
+
+            <article>
+
+                <h2>Installation</h2>
+
+                <ol>
+                    <li>Download Git.</li>
+                    <li>Install Git.</li>
+                    <li>Open Git Bash.</li>
+                    <li>Verify installation using <code>git --version</code>.</li>
+                </ol>
+
+            </article>
+
+        </section>
+
+        
+        <section id="commands">
+
+            <article>
+
+                <h2>Common Git Commands</h2>
+
+                <table border="1">
+
+                    <thead>
+
+                        <tr>
+
+                            <th>Command</th>
+                            <th>Description</th>
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+
+                            <td><code>git init</code></td>
+                            <td>Creates a new repository.</td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td><code>git clone</code></td>
+                            <td>Copies an existing repository.</td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td><code>git add .</code></td>
+                            <td>Adds all modified files.</td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td><code>git commit -m "message"</code></td>
+                            <td>Saves changes permanently.</td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td><code>git push</code></td>
+                            <td>Uploads commits to GitHub.</td>
+
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </article>
+
+        </section>
+
+        
+
+        <section id="workflow">
+
+            <article>
+
+                <h2>Basic Git Workflow</h2>
+
+                <ol>
+
+                    <li>Create a repository.</li>
+
+                    <li>Edit files.</li>
+
+                    <li>Use git add.</li>
+
+                    <li>Commit changes.</li>
+
+                    <li>Push to GitHub.</li>
+
+                </ol>
+
+            </article>
+
+        </section>
+
+        
+
+        <aside id="tips">
+
+            <h2>Helpful Tips</h2>
+
+            <ul>
+
+                <li>Commit often.</li>
+
+                <li>Write meaningful commit messages.</li>
+
+                <li>Pull before pushing.</li>
+
+                <li>Create branches for new features.</li>
+
+            </ul>
+
+        </aside>
+
+        
+
+        <section id="feedback">
+
+            <article>
+
+                <h2>Documentation Feedback</h2>
+
+                <form>
+
+                    <label for="fullname">
+                        Full Name
+                    </label>
+
+                    <br>
+
+                    <input
+                        type="text"
+                        id="fullname"
+                        name="fullname"
+                        placeholder="John Doe"
+                        required
+                        pattern="[A-Za-z ]{3,50}">
+
+                    <br><br>
+
+                    <label for="email">
+
+                        Email Address
+
+                    </label>
+
+                    <br>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="example@gmail.com"
+                        required>
+
+                    <br><br>
+
+                    <label for="rating">
+
+                        Rating (1-5)
+
+                    </label>
+
+                    <br>
+
+                    <input
+                        type="number"
+                        id="rating"
+                        name="rating"
+                        min="1"
+                        max="5"
+                        required>
+
+                    <br><br>
+
+                    <label for="message">
+
+                        Feedback
+
+                    </label>
+
+                    <br>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="6"
+                        cols="40"
+                        placeholder="Write your feedback..."
+                        required></textarea>
+
+                    <br><br>
+
+                    <button type="submit">
+
+                        Submit Feedback
+
+                    </button>
+
+                </form>
+
+            </article>
+
+        </section>
+
+    </main>
+
+    
+
+    <footer>
+
+        <p>
+            Git Technical Documentation |
+            Web Development Assignment |
+            2026
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
